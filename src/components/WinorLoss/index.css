@@ -1,0 +1,85 @@
+.winorlosscontainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  width: 600px;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+}
+.winorossinnercontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 70%;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.tophysize {
+  height: 300px;
+  width: 400px;
+  margin-bottom: 0px;
+}
+.winorlossbutton {
+  background-color: #cf60c8;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 17px;
+  padding: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  border-width: 0px;
+}
+.winorlossscorepara {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 3px;
+  line-height: 0;
+}
+.winorlossscore {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #54f7ea;
+  margin-top: 3px;
+}
+.buttonspan {
+  margin-left: 5px;
+}
+@media screen and (max-width: 577px) {
+  .winorlosscontainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    height: 94vh;
+  }
+  .winorossinnercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 70%;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .tophysize {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 0px;
+  }
+}

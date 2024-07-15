@@ -1,0 +1,26 @@
+.section-container {
+  list-style-type: none;
+  margin: 8px;
+}
+.sectionimagesetting {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+.sectionbutton {
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+@media screen and (max-width: 577px) {
+  .section-container {
+    list-style-type: none;
+    margin: 4px;
+  }
+  .sectionimagesetting {
+    width: 74px;
+    height: 74px;
+    border-radius: 5px;
+  }
+}
